@@ -9,11 +9,12 @@ class Employee:
         self.empId = input("Enter Employee ID : ")        
         self.dept = input("Enter Employee Dept : ")
         self.salary = int(input("Enter Employee Salary : "))
-    def showEmpDetails(self): print("Employee Details")     
-    print("Name : ", self.name) 
-    print("ID : ", self.empId) 
-    print("Dept : ", self.dept) 
-    print("Salary : ", self.salary)
+    def showEmpDetails(self): 
+        print("Employee Details")     
+        print("Name : ", self.name) 
+        print("ID : ", self.empId) 
+        print("Dept : ", self.dept) 
+        print("Salary : ", self.salary)
     def updateSalary(self):
         self.salary = int(input("Enter new Salary : "))
         print("Updated Salary is", self.salary)
