@@ -21,7 +21,7 @@ while True:
 
     if comic_elem:
         # Construct the comic image URL
-        comic_url = 'https:' + comic_elem['src']
+        comic_url = 'https:' + comic_elem['src'] 
 
         # Send a request to download the image
         res = requests.get(comic_url)
@@ -38,7 +38,7 @@ while True:
         break
 
     # Update the URL for the next iteration
-    url = 'https://xkcd.com' + prev_link['href']
+    url = 'https://xkcd.com' + prev_link['href'] 
     print("Downloading",url)
 
 print('All comics downloaded.')
