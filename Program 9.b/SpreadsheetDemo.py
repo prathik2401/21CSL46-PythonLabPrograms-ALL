@@ -10,7 +10,7 @@ Marks = ["89", "95", "98"]
 sheet.cell(row = 1, column = 1).value = "Name" 
 sheet.cell(row = 1, column = 2).value = "College" 
 sheet.cell(row = 1, column = 3).value = "Marks" 
-ft = Font(bold=True)
+ft = Font(name="Montserrat",bold=True)
 for row in sheet["A1:C1"]:
     for cell in row:
         cell.font = ft

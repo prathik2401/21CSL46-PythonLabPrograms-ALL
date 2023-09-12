@@ -6,6 +6,6 @@ if strn == strn[::-1]:
     print("It is a palindrome.")
 else:
     print("It is not a palindrome.")
-for i in range (10):
+for i in range (len(strn)):
     if strn.count(str(i))>0:
         print(str(i),"appears",strn.count(str(i)),"times.")

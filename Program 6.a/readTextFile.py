@@ -11,7 +11,7 @@ k = 0
 with open(inputFile, 'r') as f:
     for line in f:
         words = line.split() 
-    for i in words:
+    for i in words: # type: ignore
         if(i==word): 
             k=k+1
 print(f"Occurrences of the word {word} is:" , k )

@@ -1,6 +1,6 @@
 import json
 with open(#Enter path for the weather_data.json file
-          r'weather_data.json') as f: 
+          r'C:\Users\Prathik\Documents\GitHub\21CSL46-PythonLabPrograms-ALL\Program 10.b\weather_data.json') as f: 
     data = json.load(f)
 curr_temp = data['main']['temp'] 
 humidity = data['main']['humidity']
