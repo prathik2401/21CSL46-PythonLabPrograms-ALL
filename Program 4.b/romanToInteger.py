@@ -19,6 +19,6 @@ def roman_to_decimal(roman):
     return decimal
 
 # Test the function
-roman_numeral = "XIV"  # Example: Roman numeral for 1994
+roman_numeral = "XIV"  
 decimal_value = roman_to_decimal(roman_numeral)
 print(f"Decimal value: {decimal_value}")

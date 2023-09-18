@@ -4,7 +4,7 @@ import pandas as pd
 wb = Workbook() 
 sheet = wb.active
 sheet.title = "studentdata"
-Name = ["RAM", "JANU", "ARYA"]
+Name = ["RAM", "JANU", "ARYA",]
 College = ["JIT", "RNSIT", "SJBIT"]
 Marks = ["89", "95", "98"]
 sheet.cell(row = 1, column = 1).value = "Name" 
@@ -19,3 +19,4 @@ for i in range(2,5):
     sheet.cell(row = i, column = 2).value = College[i-2]
     sheet.cell(row = i, column = 3).value = Marks[i-2]
 wb.save("9bprogram.xlsx")
+print(pd.read_excel('9bprogram.xlsx'))

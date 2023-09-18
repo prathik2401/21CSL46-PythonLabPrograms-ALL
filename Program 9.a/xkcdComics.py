@@ -39,6 +39,6 @@ while True:
 
     # Update the URL for the next iteration
     url = 'https://xkcd.com' + prev_link['href'] 
-    print("Downloading",url)
+    print("Downloading",comic_url)
 
 print('All comics downloaded.')

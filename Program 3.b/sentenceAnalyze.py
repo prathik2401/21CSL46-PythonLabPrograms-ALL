@@ -2,8 +2,8 @@
 #uppercase letters and lowercase letters.
 s = input("Enter a sentence :")
 w= d= u= l= 0
-length = s.split()
-w = len(length)
+words = s.split()
+w = len(words)
 for c in s:
     if c.isdigit():
         d+=1
@@ -12,7 +12,7 @@ for c in s:
     elif c.islower():
         l+=1
 print("Number of Words :",w)
-print("Words :",length)
+print("Words :",words)
 print("Uppercase Count :",u)
 print("Lowercase Count :",l)
 print("Number of digits :",d)
